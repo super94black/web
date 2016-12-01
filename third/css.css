@@ -1,0 +1,44 @@
+body{
+	margin:0;
+	padding:0;
+	width: 100%;
+	height:100%;
+	background:url(./login.jpg) no-repeat;
+}
+input{
+	width:250px;
+	line-height:40px;
+	font-size:20px;
+}
+.main{
+
+	width:100%;
+	height:100%;
+}	
+.index{
+	width:100%;
+	height:50px;
+	font-size: 50px;
+	text-align: center;
+	color:white;
+}
+.username,.pwd{
+	width:100%;
+	height: 50px;
+	margin-top:20px;
+	text-align: center;
+	font-size: 30px;
+	color:white;
+}
+.pwd{
+	margin-left:15px;
+}
+
+.login{
+	width:100px;
+	height: 50px;
+	text-align: center;
+	margin-left:650px;
+	font-size: 30px;
+	
+}
