@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>登录</title>
+    <link rel="stylesheet" href="//cdn.bootcss.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    <link rel="stylesheet" href="//cdn.bootcss.com/bootstrap/3.3.5/css/bootstrap-theme.min.css">
+    <script type="text/javascript" src="../js/jquery.js"></script>
+    
+<style>
+    .s_center {
+        margin-left: auto;
+        margin-right: auto;
+    }
+    #register{
+        position: absolute;
+        width:1140px;
+        height:46px;
+        background-color:#265a88;
+        text-align: center;
+        border-radius: 6px;
+        font-size: 18px;
+        color:#fff;
+    }
+</style>
+</head>
+<body>
+
+<div class="s_center container">
+
+    <div class="form-signin">
+        <h2 class="form-signin-heading">请登录</h2>
+        <label class="sr-only">用户名</label>
+        <input type="text"  id="username" class="form-control" name="username" placeholder="请填写用户名" required autofocus>
+        <br />
+        <label  class="sr-only">密码</label>
+        <input type="password" name="password" id="pwd" class="form-control" placeholder="密码" required>
+        <br />
+        <button class="btn btn-lg btn-primary btn-block" id="login-button">登陆</button>
+        <button id="register">注册</button>
+    </div>
+   
+
+</div>
+
+</body>
+<script type="text/javascript" src="../js/ajxa_login.js"></script>
+</html>
